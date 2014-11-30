@@ -1,0 +1,29 @@
+{
+	"name": "super-telnet",
+	"version": "0.0.1",
+	"description": "Easy router manipulation",
+	"author": "Ameller Jérémy <amellerj@yahoo.com>",
+	"contributors": [{
+		"name": "Munsch Jérémy",
+		"email": "jeremy@focalys.com"
+	}],
+	"scripts": {
+	},
+	"main": "lib/supertelnet.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bgfd/super-telnet.git"
+	},
+	"bugs": {
+		"url": "https://github.com/bgfd/super-telnet/issues"
+	},
+	"keywords": [
+		"telnet",
+		"routeur"
+	],
+	"dependencies": {
+		"telnet-client": "*",
+		"minimist" : "*"
+	},
+	"license": "GNU Affero GPL v3.0"
+}
